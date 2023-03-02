@@ -7,11 +7,14 @@ mascara para os campos celular (telefone), cep (código endereço postal) cpf (c
 
 
 
-apos criar o venv, faça uma copia de segurança do arquivo: venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.py 
+apos criar o venv, faça uma copia de segurança dos arquivos: 
+-venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.py 
+-venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.kv 
+
 substitua pelo arquivo contido aqui no github (observe se sua versão do Python é compativel, não funciona com versão anterior a 3.10).
 
 
-para usar, mas colocar o 
+para usar, use validator attribute 
          validator:"phone"
          validator:"cep"
          validator:"cpf"
