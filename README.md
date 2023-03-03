@@ -1,5 +1,5 @@
 # mask textfield
-#### Authors: GRISOLFI, Aline; GRISOLFI, Álvaro
+#### Authors: [GRISOLFI, Aline](https://github.com/AlineGrisolfi); GRISOLFI, Álvaro
 
 Usado com kivyMD - MDTextField
 
