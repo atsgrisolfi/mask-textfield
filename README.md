@@ -13,10 +13,10 @@ apos criar o venv, faça uma copia de segurança dos arquivos:
 substitua-os pelos arquivos contidos aqui no github (observe se sua versão do Python é compativel, não funciona com versão anterior a **3.10**).
 
 
-para usar, use validator attribute 
-         validator:"phone"
-         validator:"cep"
-         validator:"cpf"
+para usar, use validator attribute: 
+* validator:"phone"
+* validator:"cep"
+* validator:"cpf"
             
 ### Exemplo:
      
