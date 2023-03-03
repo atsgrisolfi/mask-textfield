@@ -1,16 +1,16 @@
 # mask textfield
-# author:Aline Grisolfi
-# author:Álvaro Grisolfi
+### author:Aline Grisolfi
+### author:Álvaro Grisolfi
 
 Usado com kivyMD - MDTextField
 
 mascara para os campos celular (telefone), cep (código endereço postal) cpf (cadastro pessoa fisica)
 
 apos criar o venv, faça uma copia de segurança dos arquivos: 
--venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.py 
--venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.kv 
+* venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.py 
+* venv/lib/python3.10/site-packages/kivymd/uix/textfield/textfield.kv 
 
-substitua-os pelos arquivos contidos aqui no github (observe se sua versão do Python é compativel, não funciona com versão anterior a 3.10).
+substitua-os pelos arquivos contidos aqui no github (observe se sua versão do Python é compativel, não funciona com versão anterior a **3.10**).
 
 
 para usar, use validator attribute 
@@ -18,12 +18,10 @@ para usar, use validator attribute
          validator:"cep"
          validator:"cpf"
             
-
-
+### Exemplo:
+     
        MDTextField:
             id:fld_celullar
-            size_hint_x: .8
-            hint_text: 'Celular:(xx)x xxxx-xxxx'
             pos_hint: {'center_x': 0.5 , 'center_y': 0.7}
             helper_text: "Número do Celular"
             validator:"phone"
