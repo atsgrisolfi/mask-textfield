@@ -40,3 +40,4 @@ para usar, use validator attribute:
             pos_hint: {'center_x': 0.5 , 'center_y': 0.5}
             validator:"cpf"   
 
+Caso você  encontre um problema  avise-me https://github.com/atsgrisolfi/mask-textfield/issues  por favor
